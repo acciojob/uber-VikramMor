@@ -22,6 +22,10 @@ public class Admin{
         this.password = password;
     }
 
+    public void setAdminId(int adminId) {
+        this.adminId = adminId;
+    }
+
     public int getAdminId() {
         return adminId;
     }
